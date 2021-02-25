@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Antonin Arsenault",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "core-js": "^3.9.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.8"
+  }
+}
