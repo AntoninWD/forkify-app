@@ -11,6 +11,7 @@
     display: block;
   }
   @media only screen and (min-width: 300px) and (max-width: 600px) {
+    width: 100vw;
     &__logo {
       height: 3.5rem;
       margin-left: 1rem;

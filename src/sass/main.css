@@ -354,6 +354,9 @@ body {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
+  .header {
+    width: 100vw;
+  }
   .header__logo {
     height: 3.5rem;
     margin-left: 1rem;
@@ -441,7 +444,7 @@ body {
 }
 
 .nav {
-  margin-right: 2.5rem;
+  margin-right: 5rem;
 }
 
 .nav__list {
