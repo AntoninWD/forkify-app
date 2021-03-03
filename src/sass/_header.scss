@@ -10,6 +10,13 @@
     height: 4.6rem;
     display: block;
   }
+  @media only screen and (max-width: $bp-mobile) {
+    &__logo {
+      height: 3.5rem;
+      margin-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
 }
 
 .search {
@@ -47,6 +54,9 @@
       &::placeholder {
         color: white;
       }
+    }
+    @media only screen and (max-width: $bp-mobile) {
+      width: 15rem;
     }
   }
 
@@ -140,5 +150,11 @@
   .nav__btn--bookmarks:hover + & {
     visibility: visible;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: $bp-mobile) {
+  .remove__text {
+    font-size: 0 !important;
   }
 }
