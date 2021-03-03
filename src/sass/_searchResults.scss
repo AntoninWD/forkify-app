@@ -2,7 +2,7 @@
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
-  @media only screen and (max-width: $bp-mobile) {
+  @media only screen and (max-width: $bp-small) {
     height: 20rem;
   }
 }

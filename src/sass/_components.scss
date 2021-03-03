@@ -35,7 +35,7 @@
     fill: currentColor;
   }
 
-  @media only screen and (max-width: $bp-mobile) {
+  @media only screen and (max-width: $bp-small) {
     padding: 1.5rem;
     svg {
       margin-left: 5px;
