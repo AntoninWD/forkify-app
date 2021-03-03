@@ -22,7 +22,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   html {
     font-size: 40%;
   }
@@ -66,7 +66,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .container {
     display: -ms-grid;
     display: grid;
@@ -121,7 +121,7 @@ body {
   fill: currentColor;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .btn {
     padding: 1.5rem;
   }
@@ -353,7 +353,7 @@ body {
   display: block;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .header__logo {
     height: 3.5rem;
     margin-left: 1rem;
@@ -429,7 +429,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .search__field {
     width: 15rem;
   }
@@ -540,7 +540,7 @@ body {
   opacity: 1;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .remove__text {
     font-size: 0 !important;
     display: none;
@@ -674,7 +674,7 @@ body {
           flex-direction: column;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .search-results {
     height: 20rem;
   }
@@ -787,7 +787,7 @@ body {
   padding: 7.5rem 8rem 3.5rem 8rem;
 }
 
-@media only screen and (max-width: 45rem) {
+@media only screen and (max-width: 31.25em) {
   .recipe__details {
     padding: 7.5rem 1rem 3.5rem 1rem;
   }
@@ -808,7 +808,7 @@ body {
   margin-right: 4.5rem;
 }
 
-@media only screen and (max-width: 45rem) {
+@media only screen and (max-width: 31.25em) {
   .recipe__info:not(:last-child) {
     margin-right: 2rem;
   }
@@ -964,7 +964,7 @@ body {
   background: none;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .add-recipe-window {
     width: 80%;
     height: 550px;
@@ -1069,7 +1069,7 @@ body {
       justify-self: center;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 31.25em) {
   .upload {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
