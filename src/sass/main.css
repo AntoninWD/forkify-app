@@ -441,9 +441,6 @@ body {
 }
 
 .nav {
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
   margin-right: 2.5rem;
 }
 
