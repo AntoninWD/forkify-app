@@ -23,7 +23,7 @@
     border: none;
     background: none;
   }
-  @media only screen and (max-width: $bp-smallest) {
+  @media (max-width: $bp-mobile) {
     width: 80%;
     height: 550px;
   }
@@ -100,7 +100,7 @@
     grid-column: 1 / -1;
     justify-self: center;
   }
-  @media only screen and (max-width: $bp-smallest) {
+  @media (max-width: $bp-mobile) {
     grid-template-columns: 100%;
     gap: 0rem;
 
